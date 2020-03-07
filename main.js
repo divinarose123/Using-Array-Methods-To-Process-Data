@@ -40,7 +40,9 @@ document.querySelector('#answer4').innerHTML=`${woodChuckPrice}`
 
 //5 Which items are made of eight or more materials? Display the name, number of items and the items it is made of.
 
-var 
+var eightOrMore = items.filter(function(materials)  {
+    return materials.title,includes("")
+})
 
 
 
